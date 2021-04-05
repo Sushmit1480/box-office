@@ -29,8 +29,6 @@ const Starred = () => {
       setIsLoading(false);
     }
   }, [starred]);
-  // eslint-disable-next-line no-console
-  console.log(shows);
   return (
     <MainPageLayout>
       {isLoading && <div>Shows are still loading</div>}
